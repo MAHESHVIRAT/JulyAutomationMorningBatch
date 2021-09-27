@@ -205,6 +205,7 @@ public class XpathDemo {
 		{
 			List<WebElement> olinks=oBrowser.findElements(By.xpath("//a[@href]"));
 			System.out.println("# of Links :"+olinks.size());
+			Thread.sleep(3000);
 		}catch(Exception e)
 		{
 			e.printStackTrace();
